@@ -8,8 +8,7 @@
   },
   "scripts": {
     "start": "node app",
-    "dev": "nodemon app",
-    "heroku-postbuild": "npm install && npm run start"
+    "dev": "nodemon app"
   },
   "author": "Dom Yi",
   "license": "MIT",
