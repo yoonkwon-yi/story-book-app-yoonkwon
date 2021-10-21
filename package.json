@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "app to create public and private st ories",
   "main": "app.js",
+  "engine": {
+    "node": "14.17.0"
+  },
   "scripts": {
     "start": "node app",
     "dev": "nodemon app",
