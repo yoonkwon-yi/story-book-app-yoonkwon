@@ -6,7 +6,7 @@
   "scripts": {
     "start": "cross-env NODE_ENV=production node app",
     "dev": "cross-env NODE_ENV=development nodemon app",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install && npm run start"
+    "heroku-postbuild": "npm install && npm run start"
   },
   "author": "Dom Yi",
   "license": "MIT",
